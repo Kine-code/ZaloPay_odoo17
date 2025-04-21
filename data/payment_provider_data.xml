@@ -1,0 +1,9 @@
+<odoo>
+    <record id="payment_provider_zalopay" model="payment.provider">
+        <field name="name">ZaloPay</field>
+        <field name="code">zalopay</field>
+        <field name="company_id" ref="base.main_company"/>
+        <field name="state">disabled</field>
+        <field name="support_refund">manual</field>
+    </record>
+</odoo>

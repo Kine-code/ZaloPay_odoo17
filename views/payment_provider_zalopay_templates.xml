@@ -1,0 +1,8 @@
+<odoo>
+    <template id="payment_zalopay_form" name="ZaloPay Payment Form">
+        <form action="/payment/zalopay/redirect" method="GET">
+            <input type="hidden" name="tx_id" t-att-value="transaction.id"/>
+            <button type="submit" class="btn btn-primary">Pay with ZaloPay</button>
+        </form>
+    </template>
+</odoo>

@@ -1,0 +1,12 @@
+<odoo>
+    <template id="zalopay_qr_page" name="ZaloPay QR Payment Page">
+        <t t-call="website.layout">
+            <div class="container">
+                <h2>Scan QR to pay with ZaloPay</h2>
+                <p>Transaction: <t t-esc="tx_reference"/></p>
+                <img t-att-src="'https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=' + qr_url"/>
+                <p>If you have paid, wait for confirmation or close this page.</p>
+            </div>
+        </t>
+    </template>
+</odoo>

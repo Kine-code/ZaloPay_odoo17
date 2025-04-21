@@ -1,0 +1,17 @@
+<odoo>
+    <record id="view_payment_provider_form_zalopay" model="ir.ui.view">
+        <field name="name">payment.provider.form.zalopay</field>
+        <field name="model">payment.provider</field>
+        <field name="inherit_id" ref="payment.payment_provider_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='state']" position="after">
+                <group>
+                    <field name="zalopay_app_id"/>
+                    <field name="zalopay_key1" password="True"/>
+                    <field name="zalopay_key2" password="True"/>
+                    <field name="zalopay_endpoint"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

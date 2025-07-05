@@ -2,6 +2,7 @@ Overview
 This module integrates ZaloPay payment gateway into Odoo 17, allowing customers to make payments through ZaloPay when purchasing products or services from your Odoo website.
 
   Features
+  
     ✅ Support ZaloPay QR Code payment
     
     ✅ Support ZaloPay Payment Link generation
@@ -15,6 +16,7 @@ This module integrates ZaloPay payment gateway into Odoo 17, allowing customers 
     ✅ Multi-company ready
 
   Installation
+  
     1️⃣ Copy the module folder zalopay_odoo into your Odoo addons directory.
     
     2️⃣ Restart your Odoo server.
@@ -22,6 +24,7 @@ This module integrates ZaloPay payment gateway into Odoo 17, allowing customers 
     3️⃣ Activate the module in Apps → search for ZaloPay → click Install.
 
   Configuration
+  
     1️⃣ Go to Settings → Payments → ZaloPay Configuration
     
     2️⃣ Fill in your ZaloPay credentials:

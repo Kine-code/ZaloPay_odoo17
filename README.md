@@ -38,3 +38,4 @@ This module integrates ZaloPay payment gateway into Odoo 17, allowing customers 
     Endpoint URL
 
     3️⃣ Enable ZaloPay in Website → Payment Acquirers → ZaloPay → set to Enabled and configure as needed.
+
